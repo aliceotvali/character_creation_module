@@ -66,7 +66,7 @@ def start_training(char_name: str, char_class: str) -> str:
 
 
 def choice_char_class() -> str:
-    """"Выбор класса."""
+    """Выбор класса."""
     approve_choice: str = None
     char_class: str = None
     while approve_choice != 'y':
